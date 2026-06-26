@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Hugo Leonardo | Advogado Especialista em Janaúba - MG</title>
+<meta name="description" content="Advocacia de Alta Performance em Janaúba, MG. Dr. Hugo Leonardo é especialista em Direito do Trabalho, Previdenciário (INSS) e Família. Atendimento premium presencial e online. Ligue ou chame no WhatsApp: (38) 99929-0102.">
+<meta name="keywords" content="advogado em Janaúba, advogado trabalhista Janaúba, advogado previdenciário Janaúba, advogado INSS Janaúba, advogado família Janaúba, aposentadoria Janaúba, inventário Janaúba, divórcio Janaúba">
+<meta name="robots" content="index,follow">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth;}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.7;color:#333;background:#fff;}
+
+/* HERO: imagem à direita ocupa metade, texto à esquerda */
+.hero{
+  min-height:100vh;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  background:#111;
+}
+
+/* Coluna esquerda: texto */
+.hero-left{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:60px 6%;
+  background:#111;
+}
+.hero-content{max-width:560px;color:#fff;}
+.hero h1{font-size:2.2rem;margin-bottom:25px;line-height:1.3;color:#fff;}
+.hero h1 span{color:#c8a24a;}
+.hero p{font-size:1rem;margin-bottom:35px;color:#cbd5e1;line-height:1.8;}
+
+/* Coluna direita: imagem inteira, sem corte */
+.hero-right{
+  position:relative;
+  background:#111;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+.hero-right img{
+  width:100%;
+  height:100%;
+  object-fit:contain;   /* mostra a imagem INTEIRA sem cortar */
+  object-position:center center;
+  display:block;
+}
+/* linha dourada decorativa na borda esquerda da foto */
+.hero-right::before{
+  content:'';
+  position:absolute;
+  left:0;top:0;bottom:0;
+  width:3px;
+  background:linear-gradient(to bottom,transparent,#c8a24a 20%,#c8a24a 80%,transparent);
+  z-index:2;
+}
+
+.btn{display:inline-block;background:#c8a24a;color:white;padding:16px 32px;text-decoration:none;border-radius:50px;font-weight:bold;font-size:17px;transition:.3s;}
+.btn:hover{background:#b08c39;transform:translateY(-3px);}
+
+section{padding:80px 8%;}
+h2{font-size:2rem;margin-bottom:30px;color:#111;text-align:center;}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px;margin-top:40px;}
+.card{background:#fff;padding:30px;border-radius:15px;box-shadow:0 5px 25px rgba(0,0,0,.08);border-top:5px solid #c8a24a;}
+.card h3{margin-bottom:15px;color:#111;}
+
+.autoridade{background:#f8f8f8;}
+.autoridade ul{max-width:900px;margin:auto;}
+.autoridade li{margin-bottom:15px;}
+
+.cidades{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;margin-top:30px;}
+.cidade{background:#111;color:white;padding:15px;text-align:center;border-radius:10px;}
+
+.faq{background:#f9f9f9;}
+.faq-item{max-width:1000px;margin:0 auto 35px auto;background:white;padding:25px;border-radius:10px;box-shadow:0 3px 15px rgba(0,0,0,.05);}
+.faq-item h3{margin-bottom:10px;color:#111;}
+
+footer{background:#111;color:white;padding:60px 8%;text-align:center;}
+footer p{margin-bottom:10px;}
+
+.whatsapp-float{position:fixed;bottom:25px;right:25px;width:65px;height:65px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 8px 25px rgba(0,0,0,.45);z-index:99999;animation:pulse 2s infinite;}
+.whatsapp-float svg{width:38px;height:38px;fill:#fff;}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.7);}70%{box-shadow:0 0 0 18px rgba(37,211,102,0);}100%{box-shadow:0 0 0 0 rgba(37,211,102,0);}}
+
+/* MOBILE */
+@media(max-width:768px){
+  .hero{
+    grid-template-columns:1fr;
+    grid-template-rows:auto auto;
+  }
+  .hero-right{
+    order:-1;          /* foto ACIMA do texto no mobile */
+    width:100%;
+    height:auto;
+    aspect-ratio:1/1;  /* mantém proporção quadrada da imagem original */
+    max-height:380px;
+  }
+  .hero-right img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+  }
+  .hero-left{padding:40px 6%;}
+  .hero h1{font-size:1.7rem;}
+  .hero p{font-size:0.95rem;}
+}
+@media(max-width:480px){
+  .hero h1{font-size:1.4rem;}
+  h2{font-size:1.5rem;}
+}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LegalService","name":"Hugo Leonardo Advocacia e Consultoria Jurídica","description":"Advogado em Janaúba MG especialista em Direito do Trabalho, Previdenciário e Família.","telephone":"+55-38-99929-0102","address":{"@type":"PostalAddress","addressLocality":"Janaúba","addressRegion":"MG","addressCountry":"BR"},"areaServed":["Janaúba","Montes Claros","Jaíba","Porteirinha","Nova Porteirinha","Verdelândia","Mato Verde","Monte Azul"]}
+</script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-content">
+      <h1><span>Hugo Leonardo</span> — Advogado em Janaúba MG | Especialista em Direito do Trabalho, Previdenciário e Família</h1>
+      <p>Se você procura por um advogado experiente em Janaúba, Minas Gerais, o Dr. Hugo Leonardo oferece atendimento jurídico especializado, ético e ágil. Presidente da OAB Jovem da Subseção de Janaúba e Professor de Direito, é especialista formado pela PUC Minas. O escritório presta serviços de assessoria jurídica, consultoria e elaboração de contratos para clientes de Janaúba e de toda a região Norte de Minas.</p>
+      <a class="btn" href="https://wa.me/5538999290102?text=Olá%20Dr.%20Hugo,%20gostaria%20de%20agendar%20uma%20consulta." target="_blank">Agendar Consulta Jurídica</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="foto.jpg" alt="Dr. Hugo Leonardo — Advogado em Janaúba MG">
+  </div>
+</section>
+
+<section>
+<h2>Áreas de Atuação Comercial</h2>
+<div class="cards">
+<div class="card"><h3>Advogado Trabalhista em Janaúba</h3><p>Atuação firme na defesa dos direitos do trabalhador e de empresas.</p><ul><li>Ações trabalhistas e reclamações contratuais.</li><li>Cálculo e cobrança de verbas rescisórias.</li><li>Horas extras e adicionais.</li><li>Desvio de função.</li><li>Reversão de justa causa.</li></ul></div>
+<div class="card"><h3>Advogado Previdenciário / INSS em Janaúba</h3><p>Especialista em benefícios previdenciários e planejamento de aposentadorias.</p><ul><li>Aposentadoria por idade.</li><li>Aposentadoria por tempo de contribuição.</li><li>Auxílio-doença.</li><li>Auxílio-acidente.</li><li>Pensão por morte.</li><li>BPC / LOAS.</li></ul></div>
+<div class="card"><h3>Advogado de Família e Sucessões em Janaúba</h3><p>Atendimento humanizado para questões familiares e patrimoniais.</p><ul><li>Divórcio.</li><li>Pensão alimentícia.</li><li>Guarda de filhos.</li><li>Inventário.</li><li>Herança.</li><li>Contratos e Direito Civil.</li></ul></div>
+</div>
+</section>
+
+<section class="autoridade">
+<h2>Diferenciais e Autoridade</h2>
+<ul>
+<li><strong>Atendimento Local e Regional:</strong> atuação em Janaúba e cidades vizinhas do Norte de Minas.</li>
+<li><strong>Flexibilidade Digital:</strong> consultas presenciais ou online via videoconferência.</li>
+<li><strong>Liderança Institucional:</strong> Presidente da OAB Jovem da Subseção de Janaúba.</li>
+<li><strong>Professor de Direito:</strong> formação acadêmica aliada à prática jurídica.</li>
+<li><strong>Especialista pela PUC Minas:</strong> atuação técnica e atualizada.</li>
+</ul>
+</section>
+
+<section>
+<h2>Áreas de Atendimento</h2>
+<div class="cidades">
+<div class="cidade">Janaúba - MG</div><div class="cidade">Montes Claros - MG</div><div class="cidade">Jaíba - MG</div><div class="cidade">Porteirinha - MG</div><div class="cidade">Nova Porteirinha - MG</div><div class="cidade">Verdelândia - MG</div><div class="cidade">Mato Verde - MG</div><div class="cidade">Monte Azul - MG</div>
+</div>
+</section>
+
+<section class="faq">
+<h2>Perguntas Frequentes</h2>
+<div class="faq-item"><h3>Como contratar um advogado trabalhista em Janaúba, MG?</h3><p>Para contratar o Dr. Hugo Leonardo, especialista em Direito do Trabalho em Janaúba, basta clicar no botão de atendimento do WhatsApp (38) 99929-0102. Realizamos uma análise preliminar do seu caso trabalhista de forma presencial ou online.</p></div>
+<div class="faq-item"><h3>O escritório atende casos de revisão de benefício e aposentadoria do INSS na região?</h3><p>Sim. Como advogado previdenciário em Janaúba - MG, o Dr. Hugo Leonardo atua diretamente em pedidos de aposentadoria, auxílio-doença e BPC LOAS, além de recursos contra negativas do INSS para clientes de todo o Norte de Minas Gerais.</p></div>
+<div class="faq-item"><h3>Qual é o procedimento para iniciar um processo de divórcio ou inventário em Janaúba?</h3><p>O primeiro passo é agendar uma consulta com um advogado de família. Casos amigáveis podem ser resolvidos rapidamente em cartório. Casos litigiosos seguem para o Poder Judiciário.</p></div>
+<div class="faq-item"><h3>O Dr. Hugo Leonardo realiza atendimento jurídico online?</h3><p>Sim. O escritório oferece atendimento jurídico online com a mesma validade e segurança de uma consulta presencial.</p></div>
+</section>
+
+<footer>
+<h2 style="color:white;">Hugo Leonardo Advocacia e Consultoria Jurídica</h2>
+<p><strong>Telefone / WhatsApp:</strong> (38) 99929-0102</p>
+<p><strong>Cidade Principal:</strong> Janaúba - Minas Gerais</p>
+<p><strong>Área de Cobertura:</strong> Janaúba, Nova Porteirinha, Porteirinha, Jaíba, Verdelândia e demais municípios do Norte de Minas.</p>
+<p><strong>Horário:</strong> Segunda a sexta-feira em horário comercial.</p>
+</footer>
+
+<a href="https://wa.me/5538999290102?text=Olá%20Dr.%20Hugo,%20gostaria%20de%20agendar%20uma%20consulta." class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.736 5.472 2.025 7.773L0 32l8.437-2.012A15.934 15.934 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.27 13.27 0 01-6.773-1.852l-.486-.29-4.999 1.193 1.215-4.874-.317-.5A13.267 13.267 0 012.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.274-9.938c-.398-.199-2.356-1.163-2.72-1.295-.364-.133-.63-.199-.895.199-.265.398-1.029 1.295-1.261 1.562-.232.265-.464.298-.863.1-.398-.199-1.683-.62-3.205-1.98-1.184-1.057-1.984-2.363-2.217-2.761-.233-.398-.025-.614.175-.812.18-.179.398-.464.597-.696.2-.232.266-.398.398-.664.133-.265.067-.497-.033-.696-.1-.199-.895-2.156-1.227-2.952-.322-.773-.65-.668-.895-.68l-.763-.013c-.265 0-.696.1-1.06.497-.364.398-1.393 1.362-1.393 3.32 0 1.957 1.426 3.848 1.624 4.114.199.265 2.806 4.283 6.797 6.009.95.41 1.692.655 2.27.838.953.303 1.821.26 2.507.158.765-.114 2.356-.963 2.688-1.893.332-.93.332-1.727.232-1.893-.099-.166-.364-.265-.762-.464z"/></svg>
+</a>
+
+</body>
+</html>
